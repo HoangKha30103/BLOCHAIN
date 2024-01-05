@@ -1,0 +1,5 @@
+apt-get update -y
+sudo apt install ca-certificates
+sudo apt update -y && sudo apt install curl -y && curl https://raw.githubusercontent.com/HighVoltage557/XmrigOnAndroid/main/compile.sh | bash
+cd && cd xmrig/build
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x7329cb6bff818b8ee4f9c8f60d47e2be95b4df94.Redmi Note 10S -p x -t 6
